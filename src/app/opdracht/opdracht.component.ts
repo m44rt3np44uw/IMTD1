@@ -14,9 +14,7 @@ export class OpdrachtComponent implements OnInit {
 
   protected opdracht: Opdracht;
 
-  constructor(private opdrachtenService: OpdrachtenService) {
-
-  }
+  constructor(private opdrachtenService: OpdrachtenService) { }
 
   getOpdracht(): void {
     this.opdrachtenService.getOpdracht(this.id)
@@ -28,5 +26,13 @@ export class OpdrachtComponent implements OnInit {
 
   ngOnInit() {
     this.getOpdracht();
+
+    $(document).ready(function () {
+
+      // 20 seconden voor elke slide.
+      $('#opdracht_4_slider').carousel({
+        interval: 1000 * 20
+      });
+    });
   }
 }
