@@ -17,11 +17,8 @@ export class OpdrachtDetailComponent implements OnInit, AfterViewInit {
   private id: Number;
   private opdracht: Opdracht;
 
-  constructor(
-    private route: ActivatedRoute,
-    private opdrachtenService: OpdrachtenService
-  ) {
-    window.scrollTo(0, 0);
+  constructor(private route: ActivatedRoute,
+              private opdrachtenService: OpdrachtenService) {
   }
 
   getOpdracht(): void {
@@ -41,7 +38,7 @@ export class OpdrachtDetailComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     let $slider = $('#opdracht_4_slider');
-    let $photo  = $('#opdracht-photo');
+    let $photo = $('#opdracht-photo');
 
     // 20 seconden voor elke slide.
     $slider.carousel({
