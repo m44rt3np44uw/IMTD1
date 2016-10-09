@@ -17,7 +17,9 @@ export class OpdrachtDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private opdrachtenService: OpdrachtenService
-  ) { }
+  ) {
+    window.scrollTo(0, 0);
+  }
 
   getOpdracht(): void {
     this.opdrachtenService.getOpdracht(this.id)

@@ -27,12 +27,9 @@ export class OpdrachtComponent implements OnInit {
   ngOnInit() {
     this.getOpdracht();
 
-    $(document).ready(function () {
-
-      // 20 seconden voor elke slide.
-      $('#opdracht_4_slider').carousel({
-        interval: 1000 * 20
-      });
+    // 20 seconden voor elke slide.
+    $('#opdracht_4_slider').carousel({
+      interval: 1000 * 20
     });
   }
 }

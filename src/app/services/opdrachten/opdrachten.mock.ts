@@ -16,8 +16,8 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "https://drive.google.com/open?id=1QBm8TnwuSr83Ryzl5pd_9kjDYwsYBoS40U7cJZXLCZs",
     peer_review: {
-      ontvangen: '#ontvangen',
-      geschreven: 'https://drive.google.com/open?id=16si2dZ3ReTeEhV1Md_oMOVcWxsIcV_Pte9Xmw1vXI2Y'
+      inkomend: '#ontvangen',
+      uitgaand: 'https://drive.google.com/open?id=16si2dZ3ReTeEhV1Md_oMOVcWxsIcV_Pte9Xmw1vXI2Y'
     },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nb2NSQnN2eEFTbzQ",
     is_even: false
@@ -38,8 +38,8 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "https://drive.google.com/open?id=1xgNPFaT8togyfLeAK58T5ZkG1rXVMCIapn_gVsdxQX8",
     peer_review: {
-      ontvangen: '#ontvangen',
-      geschreven: 'https://drive.google.com/open?id=1QUaKvFYetyTTk6j_CRpcGfEWPGWdP9ebV3i_lM14D1M'
+      inkomend: '#ontvangen',
+      uitgaand: 'https://drive.google.com/open?id=1QUaKvFYetyTTk6j_CRpcGfEWPGWdP9ebV3i_lM14D1M'
     },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nem9UOGVOZXI4dWs",
     is_even: true
@@ -59,8 +59,8 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "https://drive.google.com/open?id=13Z0EwjIlaUnLgStKx89Df-1jrZzyQOxBRgXmulPtQvA",
     peer_review: {
-      ontvangen: '#ontvangen',
-      geschreven: 'https://drive.google.com/open?id=1aks9CGjLr9SI_sxRmadpObRQclkKbiBaEpWaciCvJrs'
+      inkomend: '#ontvangen',
+      uitgaand: 'https://drive.google.com/open?id=1aks9CGjLr9SI_sxRmadpObRQclkKbiBaEpWaciCvJrs'
     },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nT2FkLUdhY09Malk",
     is_even: false

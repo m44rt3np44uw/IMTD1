@@ -11,11 +11,8 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
 
-    $(document).ready(function () {
-
-      // Laad alle tooltips.
-      $('[data-toggle="tooltip"]').tooltip();
-    });
+    // Laad alle tooltips.
+    $('[data-toggle="tooltip"]').tooltip();
   }
 
 }
