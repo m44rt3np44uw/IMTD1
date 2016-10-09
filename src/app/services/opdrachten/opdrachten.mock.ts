@@ -7,6 +7,10 @@ export const OPDRACHTEN: Opdracht[] = [
     summary: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
     ],
+    excerpt: [
+      "",
+      ""
+    ],
     images: [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nb2NSQnN2eEFTbzQ"
     ],
@@ -22,6 +26,10 @@ export const OPDRACHTEN: Opdracht[] = [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
     ],
+    excerpt: [
+      "",
+      ""
+    ],
     images: [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nSmcyVkVwNF8yWUk"
     ],
@@ -36,6 +44,10 @@ export const OPDRACHTEN: Opdracht[] = [
     summary: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
     ],
+    excerpt: [
+      "",
+      ""
+    ],
     images: [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nZ05VTmhINTFmeVk"
     ],
@@ -49,6 +61,10 @@ export const OPDRACHTEN: Opdracht[] = [
     name: "Pecha Kucha",
     summary: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+    ],
+    excerpt: [
+      "",
+      ""
     ],
     images: [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nQXd3dUtPYmNUMkk",
