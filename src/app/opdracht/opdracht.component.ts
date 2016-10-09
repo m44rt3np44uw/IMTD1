@@ -28,8 +28,10 @@ export class OpdrachtComponent implements OnInit {
     this.getOpdracht();
 
     // 20 seconden voor elke slide.
-    $('#opdracht_4_slider').carousel({
-      interval: 1000 * 20
+    $(document).ready(function () {
+      $('#opdracht_4_slider').carousel({
+        interval: 1000 * 20
+      });
     });
   }
 }

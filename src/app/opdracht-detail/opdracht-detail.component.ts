@@ -34,5 +34,12 @@ export class OpdrachtDetailComponent implements OnInit {
       this.id = +params['id'] - 1;
       this.getOpdracht();
     });
+
+    // 20 seconden voor elke slide.
+    $(document).ready(function () {
+      $('#opdracht_4_slider').carousel({
+        interval: 1000 * 20
+      });
+    });
   }
 }

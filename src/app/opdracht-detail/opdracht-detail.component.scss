@@ -13,6 +13,18 @@
     -webkit-filter: drop-shadow(0 0 25px $gray-base);
     filter:         drop-shadow(0 0 25px $gray-base);
   }
+
+  .img-responsive.img-rounded, .carousel {
+    -webkit-filter: drop-shadow(0 0 25px $gray-base);
+    filter:         drop-shadow(0 0 25px $gray-base);
+  }
+
+  #opdracht_4_slider {
+
+    .right, .left {
+      background-image: none;
+    }
+  }
 }
 
 #description {

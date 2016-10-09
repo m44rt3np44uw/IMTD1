@@ -10,6 +10,10 @@ export class IkComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
 
+    // Laad alle tooltips.
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  }
 }
