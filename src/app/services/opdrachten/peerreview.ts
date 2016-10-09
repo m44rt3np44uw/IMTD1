@@ -1,4 +1,4 @@
 export interface PeerReview {
-  geschreven: string;
   ontvangen: string;
+  geschreven: string;
 }
