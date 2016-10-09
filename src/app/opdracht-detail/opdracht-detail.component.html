@@ -3,7 +3,7 @@
 
 <section id="opdracht-photo" class="container-fluid" [ngStyle]="{'background-image': 'url(' + opdracht?.images + ')'}">
   <div class="row">
-    <div class="col-xs-6 col-xs-offset-3">
+    <div [ngClass]="{'col-xs-2': (opdracht?.id == 2), 'col-xs-offset-5': (opdracht?.id == 2), 'col-xs-4': (opdracht?.id != 2), 'col-xs-offset-4': (opdracht?.id != 2)}">
       <img class="img-responsive img-rounded" src="{{ opdracht?.images }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}" />
     </div>
   </div>
@@ -23,14 +23,26 @@
         essay
       </a>
 
-      <a href="{{ opdracht?.peer_review }}" target="_blank" class="btn btn-primary">
-        2 peer review
-      </a>
+      <div *ngIf="opdracht?.id != 4" class="btn-group">
+
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          2-peer review <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu">
+          <li>
+            <a href="{{ opdracht?.peer_review.geschreven }}" target="_blank" >Geschreven</a>
+          </li>
+          <li>
+            <a href="{{ opdracht?.peer_review.ontvangen }}" target="_blank" >Ontvangen</a>
+          </li>
+        </ul>
+
+      </div>
 
       <a href="{{ opdracht?.opdracht }}" target="_blank" class="btn btn-primary">
         opdracht
       </a>
-
     </div>
   </div>
 </section>

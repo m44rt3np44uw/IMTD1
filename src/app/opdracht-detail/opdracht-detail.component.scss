@@ -32,4 +32,8 @@
   .btn {
     margin-top: 50px;
   }
+
+  .btn:not(:first-of-type), .btn-group {
+    margin-left: 10px;
+  }
 }

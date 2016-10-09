@@ -15,7 +15,10 @@ export const OPDRACHTEN: Opdracht[] = [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nb2NSQnN2eEFTbzQ"
     ],
     essay: "https://drive.google.com/open?id=1QBm8TnwuSr83Ryzl5pd_9kjDYwsYBoS40U7cJZXLCZs",
-    peer_review: "",
+    peer_review: {
+      geschreven: 'https://drive.google.com/open?id=16si2dZ3ReTeEhV1Md_oMOVcWxsIcV_Pte9Xmw1vXI2Y',
+      ontvangen: '#ontvangen'
+    },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nb2NSQnN2eEFTbzQ",
     is_even: false
   },
@@ -34,7 +37,10 @@ export const OPDRACHTEN: Opdracht[] = [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nSmcyVkVwNF8yWUk"
     ],
     essay: "https://drive.google.com/open?id=1xgNPFaT8togyfLeAK58T5ZkG1rXVMCIapn_gVsdxQX8",
-    peer_review: "",
+    peer_review: {
+      geschreven: 'https://drive.google.com/open?id=1QUaKvFYetyTTk6j_CRpcGfEWPGWdP9ebV3i_lM14D1M',
+      ontvangen: '#ontvangen'
+    },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nem9UOGVOZXI4dWs",
     is_even: true
   },
@@ -52,7 +58,10 @@ export const OPDRACHTEN: Opdracht[] = [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nZ05VTmhINTFmeVk"
     ],
     essay: "https://drive.google.com/open?id=13Z0EwjIlaUnLgStKx89Df-1jrZzyQOxBRgXmulPtQvA",
-    peer_review: "",
+    peer_review: {
+      geschreven: 'https://drive.google.com/open?id=1aks9CGjLr9SI_sxRmadpObRQclkKbiBaEpWaciCvJrs',
+      ontvangen: '#ontvangen'
+    },
     opdracht: "https://drive.google.com/open?id=0BwxJxS6uD-_nT2FkLUdhY09Malk",
     is_even: false
   },
@@ -75,7 +84,6 @@ export const OPDRACHTEN: Opdracht[] = [
       "https://drive.google.com/uc?export=view&id=0BwxJxS6uD-_nOHpNZjNLakpYV1E"
     ],
     essay: "https://drive.google.com/open?id=1RhZ7Yiy-Xer6jBuMkz9x9hzvm8niZKfTgTIZxhUZyOg",
-    peer_review: "",
     opdracht: "https://docs.google.com/presentation/d/1S2hyiL-Y36q17cRAjjQgDzylStYYGOnkmdAvSFc4Y7c/pub?start=false&loop=false&delayms=20000&slide=id.g1186acfbaf_0_0",
     is_even: true
   }
