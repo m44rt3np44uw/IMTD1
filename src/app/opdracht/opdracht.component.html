@@ -28,7 +28,7 @@
       </div>
 
       <div class="col-xs-offset-1"  [ngClass]="{'col-xs-8': (opdracht?.id == 2), 'col-xs-5': (opdracht?.id != 2), 'col-xs-pull-4': (opdracht?.id == 2), 'col-xs-pull-7': (opdracht?.id == 4)}">
-        <h3>{{ opdracht?.name }}</h3>
+        <h3><a routerLink="opdracht/{{ opdracht?.id }}">{{ opdracht?.name }}</a></h3>
         <p *ngFor="let summary of opdracht?.summary">
           {{ summary }}
         </p>
