@@ -1,3 +1,6 @@
+/// <reference path="../../../node_modules/@types/jquery/index.d.ts" />
+/// <reference path="../../../node_modules/@types/bootstrap/index.d.ts" />
+
 import {Component, OnInit, Input} from "@angular/core";
 import {OpdrachtenService} from "../services/opdrachten/opdrachten.service";
 import {Opdracht} from "../services/opdrachten/opdracht";

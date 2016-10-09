@@ -1,3 +1,6 @@
+/// <reference path="../../../node_modules/@types/jquery/index.d.ts" />
+/// <reference path="../../../node_modules/@types/bootstrap/index.d.ts" />
+
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Params} from "@angular/router";
 import {Opdracht} from "../services/opdrachten/opdracht";
@@ -35,10 +38,24 @@ export class OpdrachtDetailComponent implements OnInit {
       this.getOpdracht();
     });
 
-    // 20 seconden voor elke slide.
     $(document).ready(function () {
+
+      let $slider = $('#opdracht_4_slider');
+      let $photo  = $('#opdracht-photo');
+
+      // 20 seconden voor elke slide.
       $('#opdracht_4_slider').carousel({
         interval: 1000 * 20
+      });
+
+      // verander de achtergrond.
+      $slider.on('slid.bs.carousel', function () {
+
+        // Haal de source van de afbeelding op.
+        let source = $slider.find('.active img').attr('src');
+
+        // Veranderd de achtergrond afbeelding.
+        $photo.css('background-image', 'url(' + source + ')');
       });
     });
   }
