@@ -1,10 +1,30 @@
-<app-header [text]="[opdracht?.name]"></app-header>
+<app-header [text]="[opdracht?.name, opdracht?.quote]"></app-header>
 <app-breadcrumb [opdracht]="opdracht"></app-breadcrumb>
 
 <section id="opdracht-photo" class="container-fluid" [ngStyle]="{'background-image': 'url(' + opdracht?.images + ')'}">
   <div class="row">
     <div [ngClass]="{'col-xs-2': (opdracht?.id == 2), 'col-xs-offset-5': (opdracht?.id == 2), 'col-xs-4': (opdracht?.id != 2), 'col-xs-offset-4': (opdracht?.id != 2)}">
-      <img class="img-responsive img-rounded" src="{{ opdracht?.images }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}" />
+
+      <img *ngIf="opdracht?.id != 4" class="img-responsive img-rounded" src="{{ opdracht?.images }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}" />
+
+      <div *ngIf="opdracht?.id == 4" id="opdracht_{{ opdracht?.id }}_slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li *ngFor="let slide of opdracht?.images; let index = index; let first = first;" attr.target="#opdracht_{{ opdracht?.id }}_slider" attr.slide-to="{{index}}" [ngClass]="{'active': first}"></li>
+        </ol>
+        <div class="carousel-inner img-rounded" role="listbox">
+          <div *ngFor="let slide of opdracht?.images; let index = index; let first = first;" class="item img-rounded" [ngClass]="{'active': first}">
+            <img class="img-rounded" src="{{ slide }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
+          </div>
+        </div>
+        <a class="left carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Vorige</span>
+        </a>
+        <a class="right carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Volgende</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
