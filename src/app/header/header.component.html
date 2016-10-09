@@ -1,0 +1,10 @@
+<header id="header" class="container-fluid bg-primary">
+  <div class="row">
+    <div class="col-xs-12">
+      <span *ngFor="let header of text; let index = index;">
+        <h1 *ngIf="(text.length == 2 && index == 0) || (text.length == 1)">{{ header }}</h1>
+        <h2 *ngIf="text.length == 2 && index == 1">{{ header }}</h2>
+      </span>
+    </div>
+  </div>
+</header>

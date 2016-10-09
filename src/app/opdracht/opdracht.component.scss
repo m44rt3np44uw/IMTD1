@@ -1,0 +1,49 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+.opdracht {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  h3 {
+    font-weight: 700;
+    color: $brand-primary;
+    margin-bottom: 25px;
+  }
+
+  p {
+    line-height: 225%;
+  }
+
+  .btn {
+    margin-top: 50px;
+  }
+
+  &.odd {
+    background-color: $gray-dark;
+
+    p {
+      color: $gray-lighter;
+    }
+
+    img {
+      -webkit-filter: drop-shadow(0 0 25px $gray-base);
+      filter:         drop-shadow(0 0 25px $gray-base);
+    }
+  }
+
+  &.even {
+
+    .img-responsive.img-rounded, .carousel {
+      -webkit-filter: drop-shadow(0 0 25px $gray-light);
+      filter:         drop-shadow(0 0 25px $gray-light);
+    }
+
+    #opdracht_4_slider {
+
+      .right, .left {
+        background-image: none;
+      }
+    }
+  }
+}

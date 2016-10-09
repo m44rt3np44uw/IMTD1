@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+#me {
+  padding-top: 75px;
+  padding-bottom: 125px;
+
+  h3, p {
+    text-align: center;
+  }
+
+  h3 {
+    color: $brand-primary;
+  }
+
+  p {
+    line-height: 225%;
+  }
+}
+

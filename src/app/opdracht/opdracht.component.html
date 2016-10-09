@@ -1,0 +1,40 @@
+<section id="opdracht_{{ opdracht?.id }}" class="opdracht" [ngClass]="{ even: opdracht?.is_even, odd: !opdracht?.is_even }">
+  <div class="container">
+    <div class="row">
+
+      <div *ngIf="opdracht?.images.length != 6" [ngClass]="{'col-xs-3': (opdracht?.id == 2), 'col-xs-6': (opdracht?.id != 2), 'col-xs-push-9': (opdracht?.id == 2) }">
+        <img class="img-responsive img-rounded" src="{{ opdracht?.images }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
+      </div>
+
+      <div *ngIf="opdracht?.images.length == 6" class="col-xs-6 col-xs-push-6">
+        <div id="opdracht_{{ opdracht?.id }}_slider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li *ngFor="let slide of opdracht?.images; let index = index; let first = first;" attr.target="#opdracht_{{ opdracht?.id }}_slider" attr.slide-to="{{index}}" [ngClass]="{'active': first}"></li>
+          </ol>
+          <div class="carousel-inner img-rounded" role="listbox">
+            <div *ngFor="let slide of opdracht?.images; let index = index; let first = first;" class="item img-rounded" [ngClass]="{'active': first}">
+              <img class="img-rounded" src="{{ slide }}" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
+            </div>
+          </div>
+          <a class="left carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Vorige</span>
+          </a>
+          <a class="right carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Volgende</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-offset-1"  [ngClass]="{'col-xs-8': (opdracht?.id == 2), 'col-xs-5': (opdracht?.id != 2), 'col-xs-pull-4': (opdracht?.id == 2), 'col-xs-pull-7': (opdracht?.id == 4)}">
+        <h3>{{ opdracht?.name }}</h3>
+        <p *ngFor="let summary of opdracht?.summary">
+          {{ summary }}
+        </p>
+        <a class="btn btn-primary" routerLink="opdracht/{{ opdracht?.id }}">lees meer</a>
+      </div>
+
+    </div>
+  </div>
+</section>
