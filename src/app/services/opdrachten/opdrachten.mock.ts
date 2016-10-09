@@ -1,4 +1,4 @@
-import { Opdracht } from "./opdracht";
+import {Opdracht} from "../../interfaces/opdrachten/opdracht";
 
 export const OPDRACHTEN: Opdracht[] = [
   {

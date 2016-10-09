@@ -9,9 +9,10 @@ export class HeaderComponent implements OnInit {
 
   @Input() private text: Array<string>;
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit() {
+  ngOnInit(): void {
 
   }
 }
