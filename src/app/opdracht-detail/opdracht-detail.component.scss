@@ -1,0 +1,24 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+#opdracht-photo {
+  background-color: $gray-dark;
+}
+
+#description {
+
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+  h2 {
+    color: $brand-primary;
+    margin-bottom: 25px;
+  }
+
+  p {
+    line-height: 225%;
+  }
+
+  .btn {
+    margin-top: 50px;
+  }
+}

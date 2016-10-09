@@ -1,3 +1,38 @@
 <app-header [text]="[opdracht?.name]"></app-header>
 <app-breadcrumb [opdracht]="opdracht"></app-breadcrumb>
+
+<section id="opdracht-photo" class="container-fluid">
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+
+    </div>
+  </div>
+</section>
+
+<section id="description" class="container">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2 text-center">
+
+      <h2>Opdracht {{ opdracht?.id }}</h2>
+
+      <p *ngFor="let summary of opdracht?.summary">
+        {{ summary }}
+      </p>
+
+      <a href="{{ opdracht?.essay }}" target="_blank" class="btn btn-primary">
+        essay
+      </a>
+
+      <a href="{{ opdracht?.peer_review }}" target="_blank" class="btn btn-primary">
+        2 peer review
+      </a>
+
+      <a href="{{ opdracht?.opdracht }}" target="_blank" class="btn btn-primary">
+        opdracht
+      </a>
+
+    </div>
+  </div>
+</section>
+
 <app-footer></app-footer>
