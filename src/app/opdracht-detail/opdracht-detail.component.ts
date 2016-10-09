@@ -29,7 +29,7 @@ export class OpdrachtDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((params: Params) => {
-      this.id = +params['id'];
+      this.id = +params['id'] - 1;
       this.getOpdracht();
     });
   }
