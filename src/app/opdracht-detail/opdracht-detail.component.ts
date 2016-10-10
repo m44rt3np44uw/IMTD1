@@ -22,7 +22,7 @@ export class OpdrachtDetailComponent implements OnInit, AfterViewInit {
   }
 
   getOpdracht(): void {
-    this.opdrachtenService.getOpdracht(this.id)
+    OpdrachtenService.getOpdracht(this.id)
       .then((opdracht: Opdracht) => {
         this.opdracht = opdracht;
       })

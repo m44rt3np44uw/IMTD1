@@ -5,7 +5,7 @@ import {OPDRACHTEN} from "./opdrachten.mock";
 @Injectable()
 export class OpdrachtenService {
 
-  getOpdracht(id: any): Promise<Opdracht> {
+  static getOpdracht(id: any): Promise<Opdracht> {
     return Promise.resolve(OPDRACHTEN[id]);
   }
 }

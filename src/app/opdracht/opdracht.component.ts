@@ -20,7 +20,7 @@ export class OpdrachtComponent implements OnInit, AfterViewInit {
   constructor(private opdrachtenService: OpdrachtenService) { }
 
   getOpdracht(): void {
-    this.opdrachtenService.getOpdracht(this.id)
+    OpdrachtenService.getOpdracht(this.id)
       .then((opdracht: Opdracht) => {
         this.opdracht = opdracht;
       })
