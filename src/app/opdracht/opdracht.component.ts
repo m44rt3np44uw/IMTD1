@@ -1,9 +1,9 @@
 /// <reference path="../../../node_modules/@types/jquery/index.d.ts" />
 /// <reference path="../../../node_modules/@types/bootstrap/index.d.ts" />
 
-import {Component, OnInit, Input} from "@angular/core";
+import {Component, OnInit, Input, AfterViewInit} from "@angular/core";
 import {OpdrachtenService} from "../services/opdrachten/opdrachten.service";
-import {Opdracht} from "../services/opdrachten/opdracht";
+import {Opdracht} from "../interfaces/opdrachten/opdracht";
 
 @Component({
   selector: 'app-opdracht',
@@ -11,30 +11,29 @@ import {Opdracht} from "../services/opdrachten/opdracht";
   styleUrls: ['./opdracht.component.scss'],
   providers: [OpdrachtenService]
 })
-export class OpdrachtComponent implements OnInit {
+export class OpdrachtComponent implements OnInit, AfterViewInit {
 
   @Input() private id: any;
 
-  protected opdracht: Opdracht;
+  private opdracht: Opdracht;
 
   constructor(private opdrachtenService: OpdrachtenService) { }
 
   getOpdracht(): void {
-    this.opdrachtenService.getOpdracht(this.id)
+    OpdrachtenService.getOpdracht(this.id)
       .then((opdracht: Opdracht) => {
-        this.opdracht = opdracht
+        this.opdracht = opdracht;
       })
     ;
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.getOpdracht();
+  }
 
-    // 20 seconden voor elke slide.
-    $(document).ready(function () {
-      $('#opdracht_4_slider').carousel({
-        interval: 1000 * 20
-      });
+  ngAfterViewInit(): void {
+    $('#opdracht_4_slider').carousel({
+      interval: 1000 * 20
     });
   }
 }

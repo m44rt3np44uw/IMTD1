@@ -1,22 +1,20 @@
 /// <reference path="../../../node_modules/@types/jquery/index.d.ts" />
 /// <reference path="../../../node_modules/@types/bootstrap/index.d.ts" />
 
-import { Component, OnInit } from '@angular/core';
+import {Component, AfterViewInit} from '@angular/core';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent implements AfterViewInit {
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit() {
-
+  ngAfterViewInit() {
     // Laad alle tooltips.
-    $(document).ready(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
+    $('[data-toggle="tooltip"]').tooltip();
   }
 }

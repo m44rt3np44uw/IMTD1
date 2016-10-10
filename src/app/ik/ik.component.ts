@@ -1,19 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-ik',
   templateUrl: './ik.component.html',
   styleUrls: ['./ik.component.scss']
 })
-export class IkComponent implements OnInit {
+export class IkComponent implements AfterViewInit {
 
   constructor() { }
 
-  ngOnInit() {
-
+  ngAfterViewInit(): void {
     // Laad alle tooltips.
-    $(document).ready(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
+    $('[data-toggle="tooltip"]').tooltip();
   }
 }

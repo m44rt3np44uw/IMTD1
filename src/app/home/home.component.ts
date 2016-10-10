@@ -1,16 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
+import {ScrollToTop} from "./scrollToTop";
+import {Router} from "@angular/router";
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent extends ScrollToTop {
 
-  constructor() {
-    window.scrollTo(0, 0);
-  }
+  constructor(private router: Router,
+              private location: Location) {
+    super();
 
-  ngOnInit() {
+    this.router.events.subscribe((path) => {
+      if (path.url !== location.path()) {
+        this.scrollToTop(0);
+      }
+    });
   }
 }

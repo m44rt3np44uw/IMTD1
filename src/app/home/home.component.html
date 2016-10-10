@@ -1,8 +1,5 @@
 <app-header [text]="['Hallo,', 'ik ben Maarten.']"></app-header>
 <app-foto></app-foto>
 <app-ik></app-ik>
-<app-opdracht [id]="0"></app-opdracht>
-<app-opdracht [id]="1"></app-opdracht>
-<app-opdracht [id]="2"></app-opdracht>
-<app-opdracht [id]="3"></app-opdracht>
+<app-opdracht *ngFor="let index of [0, 1, 2, 3]" [id]="index"></app-opdracht>
 <app-footer></app-footer>
