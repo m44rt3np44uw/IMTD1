@@ -2,10 +2,12 @@
   <div class="container">
     <div class="row">
 
-      <div *ngIf="opdracht?.images.length != 6" [ngClass]="{'col-xs-3': (opdracht?.id == 2), 'col-xs-6': (opdracht?.id != 2), 'col-xs-push-9': (opdracht?.id == 2) }">
+      <!-- TODO telefoon centreren -->
+      <div *ngIf="opdracht?.images.length != 6" [ngClass]="{'col-md-3': (opdracht?.id == 2), 'col-md-6': (opdracht?.id != 2), 'col-md-push-9': (opdracht?.id == 2), 'col-sm-4': (opdracht?.id == 2), 'col-sm-offset-4': (opdracht?.id == 2) }" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-offset-0" >
         <img class="img-responsive img-rounded" [src]="opdracht?.images" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
       </div>
 
+      <!-- TODO slider responsive maken -->
       <div *ngIf="opdracht?.images.length == 6" class="col-xs-6 col-xs-push-6">
         <div id="opdracht_{{ opdracht?.id }}_slider" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -27,7 +29,7 @@
         </div>
       </div>
 
-      <div class="col-xs-offset-1"  [ngClass]="{'col-xs-8': (opdracht?.id == 2), 'col-xs-5': (opdracht?.id != 2), 'col-xs-pull-4': (opdracht?.id == 2), 'col-xs-pull-7': (opdracht?.id == 4)}">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-1 text-xs-center margin-top-sm-40"  [ngClass]="{'col-md-8': (opdracht?.id == 2), 'col-md-5': (opdracht?.id != 2), 'col-md-pull-4': (opdracht?.id == 2), 'col-md-pull-7': (opdracht?.id == 4)}">
         <h3><a routerLink="opdracht/{{ opdracht?.id }}" [innerText]="opdracht?.name"></a></h3>
         <p *ngFor="let summary of opdracht?.summary" [innerText]="summary">
         </p>

@@ -4,7 +4,19 @@
 <section id="opdracht-photo" class="container-fluid" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(' + (opdracht?.images.length > 1 ? opdracht?.images[0] : opdracht?.images) + ')'}">
 <!--<section id="opdracht-photo" class="container-fluid">-->
   <div class="row">
-    <div [ngClass]="{'col-xs-2': (opdracht?.id == 2), 'col-xs-offset-5': (opdracht?.id == 2), 'col-xs-4': (opdracht?.id != 2), 'col-xs-offset-4': (opdracht?.id != 2)}">
+    <div [ngClass]="
+      {
+        'col-sm-4': (opdracht?.id == 2),
+        'col-sm-offset-4': (opdracht?.id == 2),
+
+        'col-md-6': (opdracht?.id != 2),
+        'col-md-offset-3': (opdracht?.id != 2),
+        'col-sm-8': (opdracht?.id != 2),
+        'col-sm-offset-2': (opdracht?.id != 2),
+        'col-xs-8': (opdracht?.id != 2) || (opdracht?.id == 2),
+        'col-xs-offset-2': (opdracht?.id != 2) || (opdracht?.id == 2)
+       }
+    ">
 
       <img *ngIf="opdracht?.id != 4" class="img-responsive img-rounded" [src]="opdracht?.images" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}" />
 
@@ -32,7 +44,7 @@
 
 <section id="description" class="container">
   <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 text-center">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center">
 
       <h2 [innerText]="'Opdracht ' + opdracht?.id"></h2>
 

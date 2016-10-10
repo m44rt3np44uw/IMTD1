@@ -3,3 +3,17 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 767px) {
+
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .margin-top-sm-40 {
+    margin-top:40px;
+  }
+}
