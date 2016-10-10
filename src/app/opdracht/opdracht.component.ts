@@ -15,14 +15,14 @@ export class OpdrachtComponent implements OnInit, AfterViewInit {
 
   @Input() private id: any;
 
-  protected opdracht: Opdracht;
+  private opdracht: Opdracht;
 
   constructor(private opdrachtenService: OpdrachtenService) { }
 
   getOpdracht(): void {
     this.opdrachtenService.getOpdracht(this.id)
       .then((opdracht: Opdracht) => {
-        this.opdracht = opdracht
+        this.opdracht = opdracht;
       })
     ;
   }
