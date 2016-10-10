@@ -7,8 +7,7 @@
         <img class="img-responsive img-rounded" [src]="opdracht?.images" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
       </div>
 
-      <!-- TODO slider responsive maken -->
-      <div *ngIf="opdracht?.images.length == 6" class="col-xs-6 col-xs-push-6">
+      <div *ngIf="opdracht?.images.length == 6" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-push-6 col-md-offset-0">
         <div id="opdracht_{{ opdracht?.id }}_slider" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li *ngFor="let slide of opdracht?.images; let index = index; let first = first;" attr.target="#opdracht_{{ opdracht?.id }}_slider" attr.slide-to="{{index}}" [ngClass]="{'active': first}"></li>
