@@ -13,6 +13,8 @@ import {FotoComponent} from './foto/foto.component';
 import {IkComponent} from './ik/ik.component';
 import {BreadcrumbComponent} from './breadcrumb/breadcrumb.component';
 import {IPMEDT2RoutingModule} from "./app-routing.module";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import {IPMEDT2RoutingModule} from "./app-routing.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    IPMEDT2RoutingModule
+    IPMEDT2RoutingModule,
+    NgbModule.forRoot()
   ],
   bootstrap: [AppComponent]
 })
