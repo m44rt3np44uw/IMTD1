@@ -1,7 +1,8 @@
 <app-header [text]="[opdracht?.name, opdracht?.quote]"></app-header>
 <app-breadcrumb [opdracht]="opdracht"></app-breadcrumb>
 
-<section id="opdracht-photo" class="container-fluid" [ngStyle]="{'background-image': 'url(' + (opdracht?.images.length > 1 ? opdracht?.images[0] : opdracht?.images) + ')'}">
+<section id="opdracht-photo" class="container-fluid" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(' + (opdracht?.images.length > 1 ? opdracht?.images[0] : opdracht?.images) + ')'}">
+<!--<section id="opdracht-photo" class="container-fluid">-->
   <div class="row">
     <div [ngClass]="{'col-xs-2': (opdracht?.id == 2), 'col-xs-offset-5': (opdracht?.id == 2), 'col-xs-4': (opdracht?.id != 2), 'col-xs-offset-4': (opdracht?.id != 2)}">
 

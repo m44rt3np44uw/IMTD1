@@ -37,22 +37,29 @@ export class OpdrachtDetailComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    let $slider = $('#opdracht_4_slider');
-    let $photo = $('#opdracht-photo');
 
-    // 20 seconden voor elke slide.
-    $slider.carousel({
-      interval: 1000 * 20
+
+    $(document).ready(function () {
+
+
+      let $slider = $('#opdracht_4_slider');
+      let $photo = $('#opdracht-photo');
+
+      // 20 seconden voor elke slide.
+      $slider.carousel({
+        interval: 1000 * 20
+      });
+
+      // verander de achtergrond.
+      $slider.on('slid.bs.carousel', function () {
+
+        // Haal de source van de afbeelding op.
+        let source = $slider.find('.active img').attr('src');
+
+        // Veranderd de achtergrond afbeelding.
+        $photo.css('background-image', 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("' + source + '")');
+      });
     });
 
-    // verander de achtergrond.
-    $slider.on('slid.bs.carousel', function () {
-
-      // Haal de source van de afbeelding op.
-      let source = $slider.find('.active img').attr('src');
-
-      // Veranderd de achtergrond afbeelding.
-      $photo.css('background-image', 'url(' + source + ')');
-    });
   }
 }
