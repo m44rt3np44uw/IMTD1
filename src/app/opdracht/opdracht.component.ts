@@ -85,8 +85,10 @@ export class OpdrachtComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    $('#opdracht_4_slider').carousel({
-      interval: 1000 * 20
+    $(document).ready(function () {
+      $('#opdracht_4_slider').carousel({
+        interval: 1000 * 20
+      });
     });
   }
 }
