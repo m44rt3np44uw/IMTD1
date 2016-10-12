@@ -7,20 +7,20 @@
 
       <img *ngIf="opdracht?.id != 4" class="img-responsive img-rounded" [src]="opdracht?.images" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}" />
 
-      <div *ngIf="opdracht?.id == 4" id="opdracht_{{ opdracht?.id }}_slider" class="carousel slide" data-ride="carousel">
+      <div *ngIf="opdracht?.id == 4" id="opdracht_{{ opdracht?.id }}_slider_detail" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li *ngFor="let slide of opdracht?.images; let index = index; let first = first;" attr.target="#opdracht_{{ opdracht?.id }}_slider" attr.slide-to="{{index}}" [ngClass]="{'active': first}"></li>
+          <li *ngFor="let slide of opdracht?.images; let index = index; let first = first;" attr.target="#opdracht_{{ opdracht?.id }}_slider_detail" attr.slide-to="{{index}}" [ngClass]="{'active': first}"></li>
         </ol>
         <div class="carousel-inner img-rounded" role="listbox">
           <div *ngFor="let slide of opdracht?.images; let index = index; let first = first;" class="item img-rounded" [ngClass]="{'active': first}">
             <img class="img-rounded" [src]="slide" alt="Opdracht {{ opdracht?.id }} - {{ opdracht?.name }}">
           </div>
         </div>
-        <a class="left carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="prev">
+        <a class="left carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider_detail" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Vorige</span>
         </a>
-        <a class="right carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider" role="button" data-slide="next">
+        <a class="right carousel-control" attr.href="#opdracht_{{ opdracht?.id }}_slider_detail" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Volgende</span>
         </a>

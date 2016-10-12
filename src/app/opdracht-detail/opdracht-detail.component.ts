@@ -44,8 +44,8 @@ export class OpdrachtDetailComponent implements OnInit, AfterViewInit {
     $(document).ready(function () {
 
       // Variables.
-      let $slider = $('#opdracht_4_slider'),
-        $photo = $('#opdracht-photo');
+      let $slider = $('#opdracht_4_slider_detail'),
+          $photo  = $('#opdracht-photo');
 
       // 20 seconden voor elke slide.
       $slider.carousel({
