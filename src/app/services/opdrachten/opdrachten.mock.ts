@@ -80,12 +80,12 @@ export const OPDRACHTEN: Opdracht[] = [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
     ],
     images: [
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-1.png",
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-2.png",
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-3.png",
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-4.png",
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-5.png",
-      "src/assets/opdrachten/opdracht-4/images/opdracht-4-slide-6.png"
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-1.png",
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-2.png",
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-3.png",
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-4.png",
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-5.png",
+      "assets/opdrachten/opdracht-4/images/opdracht-4-slide-6.png"
     ],
     essay: "assets/opdrachten/opdracht-4/essay/opdracht-4-essay.pdf",
     opdracht: "assets/opdrachten/opdracht-4/opdracht/opdracht-4.pdf",
