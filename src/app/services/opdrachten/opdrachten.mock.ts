@@ -49,7 +49,7 @@ export const OPDRACHTEN: Opdracht[] = [
   {
     id: 3,
     name: "Augmented Albert",
-    quote: "Een experiment met Augmented Reality",
+    quote: "Een experiment met augmented reality",
     summary: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
     ],
