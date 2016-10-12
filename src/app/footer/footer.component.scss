@@ -11,10 +11,22 @@ footer {
   }
 
   h5 {
+
+    a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h5, h6 {
     font-weight: 300;
   }
 
-  h4, h5 {
+  h4, h5, h6 {
     text-align: center;
     color: white;
     line-height: 150%;
