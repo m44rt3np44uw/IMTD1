@@ -1,10 +1,11 @@
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../variables";
 
 footer {
 
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: $gray-darker;
+  background-color: $kleur_1;
 
   h4 {
     font-weight: 700;
@@ -34,7 +35,7 @@ footer {
 
   p, a {
     text-align: center;
-    color: $brand-primary;
+    color: $kleur_5;
     margin-top: 50px;
   }
 }
