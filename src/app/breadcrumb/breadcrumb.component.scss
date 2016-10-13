@@ -1,4 +1,21 @@
+@import "../../variables";
+
 #breadcrumb {
   margin-top: 50px;
   margin-bottom: 30px;
+
+  .breadcrumb {
+
+    li {
+
+      &.active {
+        color: $kleur_4;
+      }
+
+      a {
+        color: $kleur_5;
+      }
+    }
+  }
+
 }
