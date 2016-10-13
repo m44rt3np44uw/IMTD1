@@ -1,4 +1,5 @@
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../variables";
 
 #opdracht-photo {
   padding-top: 75px;
@@ -32,16 +33,29 @@
   margin-bottom: 75px;
 
   h2 {
-    color: $brand-primary;
+    color: $kleur_5;
     margin-bottom: 25px;
   }
 
   p {
+    color: $kleur_4;
     line-height: 225%;
   }
 
   .btn {
     margin-top: 50px;
+    background-color: transparent;
+    border-color: $kleur_5;
+    color: $kleur_4;
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    border-color: $kleur_5;
+
+    a {
+      color: $kleur_4;
+    }
   }
 
   .btn:not(:first-of-type), .btn-group {
