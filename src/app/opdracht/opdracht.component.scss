@@ -1,4 +1,5 @@
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../variables";
 
 .opdracht {
 
@@ -7,8 +8,15 @@
 
   h3 {
     font-weight: 700;
-    color: $brand-primary;
     margin-bottom: 25px;
+
+    a {
+      color: $kleur_5;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
   img {
@@ -16,18 +24,21 @@
   }
 
   p {
+    color: $kleur_4;
     line-height: 225%;
   }
 
   .btn {
-    margin-top: 50px;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: $kleur_5;
   }
 
   &.odd {
-    background-color: $gray-dark;
+    background-color: $kleur_2;
 
     p {
-      color: $gray-lighter;
+      color: white;
     }
 
     img {
@@ -41,6 +52,10 @@
     .img-responsive.img-rounded, .carousel {
       -webkit-filter: drop-shadow(0 0 25px $gray-light);
       filter:         drop-shadow(0 0 25px $gray-light);
+    }
+
+    .btn {
+      color: $kleur_4;
     }
 
     #opdracht_4_slider {
