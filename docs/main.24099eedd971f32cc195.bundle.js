@@ -66152,7 +66152,7 @@ module.exports = "img {\n  margin-top: -50%;\n  border: white solid 5px; }\n"
 /* 726 */
 /***/ function(module, exports) {
 
-module.exports = "header {\n  padding-top: 175px;\n  height: 500px; }\n  header.bg-primary {\n    background-color: #FEB41C; }\n  header h1, header h2 {\n    text-align: center; }\n  header h1 {\n    font-size: 4em;\n    font-weight: 700; }\n  header h2 {\n    font-size: 2.5em;\n    font-weight: 300; }\n"
+module.exports = "header {\n  padding-top: 15%;\n  padding-bottom: 15%; }\n  header.bg-primary {\n    background-color: #FEB41C; }\n  header h1, header h2 {\n    text-align: center; }\n  header h1 {\n    font-size: 4em;\n    font-weight: 700; }\n  header h2 {\n    font-size: 2.5em;\n    font-weight: 300; }\n"
 
 /***/ },
 /* 727 */
@@ -66164,13 +66164,13 @@ module.exports = ""
 /* 728 */
 /***/ function(module, exports) {
 
-module.exports = "#me {\n  padding-top: 75px;\n  padding-bottom: 125px; }\n  #me h3, #me p {\n    text-align: center; }\n  #me h3 {\n    color: #FEB41C; }\n  #me p {\n    color: #5E7C88;\n    line-height: 225%; }\n"
+module.exports = "#me {\n  padding-top: 75px;\n  padding-bottom: 125px; }\n  #me h3, #me p {\n    text-align: center; }\n  #me h3 {\n    font-weight: 700;\n    color: #FEB41C; }\n  #me p {\n    color: #5E7C88;\n    line-height: 225%; }\n"
 
 /***/ },
 /* 729 */
 /***/ function(module, exports) {
 
-module.exports = "#opdracht-photo {\n  padding-top: 75px;\n  padding-bottom: 75px;\n  background: no-repeat center center #333333;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  #opdracht-photo img, #opdracht-photo .img-responsive.img-rounded, #opdracht-photo .carousel {\n    -webkit-filter: drop-shadow(0 0 25px #000);\n    filter: drop-shadow(0 0 25px #000); }\n  #opdracht-photo .img-rounded, #opdracht-photo .img-responsive {\n    width: 100%; }\n  #opdracht-photo #opdracht_4_slider_detail .right, #opdracht-photo #opdracht_4_slider_detail .left {\n    background-image: none; }\n\n#description {\n  margin-top: 75px;\n  margin-bottom: 75px; }\n  #description h2 {\n    color: #FEB41C;\n    margin-bottom: 25px; }\n  #description p {\n    color: #5E7C88;\n    line-height: 225%; }\n  #description .btn {\n    margin-top: 50px;\n    background-color: transparent;\n    border-color: #FEB41C;\n    color: #5E7C88; }\n  #description .dropdown-menu {\n    background-color: transparent;\n    border-color: #FEB41C; }\n    #description .dropdown-menu a {\n      color: #5E7C88; }\n  #description .btn:not(:first-of-type), #description .btn-group {\n    margin-left: 10px; }\n"
+module.exports = "#opdracht-photo {\n  padding-top: 75px;\n  padding-bottom: 75px;\n  background: no-repeat center center #333333;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  #opdracht-photo img, #opdracht-photo .img-responsive.img-rounded, #opdracht-photo .carousel {\n    -webkit-filter: drop-shadow(0 0 25px #000);\n    filter: drop-shadow(0 0 25px #000); }\n  #opdracht-photo .img-rounded, #opdracht-photo .img-responsive {\n    width: 100%; }\n  #opdracht-photo #opdracht_4_slider_detail .right, #opdracht-photo #opdracht_4_slider_detail .left {\n    background-image: none; }\n\n#description {\n  margin-top: 75px;\n  margin-bottom: 75px; }\n  #description h2 {\n    font-weight: 700;\n    color: #FEB41C;\n    margin-bottom: 25px; }\n  #description p {\n    color: #5E7C88;\n    line-height: 225%; }\n  #description .btn {\n    margin-top: 50px;\n    background-color: transparent;\n    border-color: #FEB41C;\n    color: #5E7C88; }\n  #description .dropdown-menu {\n    background-color: transparent;\n    border-color: #FEB41C; }\n    #description .dropdown-menu a {\n      color: #5E7C88; }\n  #description .btn:not(:first-of-type), #description .btn-group {\n    margin-left: 10px; }\n"
 
 /***/ },
 /* 730 */
@@ -69171,4 +69171,4 @@ module.exports = __webpack_require__(429);
 
 /***/ }
 ],[774]);
-//# sourceMappingURL=main.4bb0b9f1374131118099.bundle.map
+//# sourceMappingURL=main.24099eedd971f32cc195.bundle.map
