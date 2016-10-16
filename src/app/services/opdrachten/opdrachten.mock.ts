@@ -28,8 +28,8 @@ export const OPDRACHTEN: Opdracht[] = [
     name: "Lunchroom Bakker",
     quote: "Kleine trek, grote trek & enorme trek",
     summary: [
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+      "De opdrachtgever, familie Bakker, bezorgt al sinds 1910 lunches via hun bedrijf Lunchroom Bakker. Om mee te gaan met de moderne tijd willen zij deze ook via een Android applicatie verkopen. De opdracht betreft het maken van een schermontwerp voor het welkomstscherm van deze applicatie.",
+      "Dit welkomstscherm moet aan een aantal opgegeven eisen voldoen. Zo moet het scherm een menu knop hebben en een zoekmogelijkheid. Ook moeten de verschillende lunches van Lunchroom Bakker vermeld worden, inclusief de bijbehorende prijzen en bestel knop.",
     ],
     excerpt: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
