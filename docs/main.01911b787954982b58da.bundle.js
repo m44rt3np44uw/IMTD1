@@ -62833,6 +62833,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 let IkComponent = class IkComponent {
     constructor() {
+        this.ik = "Mijn naam is Maarten Paauw, ben 23 jaar oud en woon in Den Haag samen met " +
+            "mijn vriendin. Ik ben tweedejaars student van de opleiding Informatica aan de Hogeschool " +
+            "Leiden. Voordat ik aan deze opleiding begon heb ik twee MBO opleidingen gedaan op het " +
+            "gebied van grafische vormgeving en techniek. Naast mijn huidige studie werk ik als " +
+            "freelancer voor verschillende opdrachtgevers. Hierbij bouw ik websites, ontwerp advertenties " +
+            "en ander drukwerk en doe beheer- en advieswerkzaamheden.";
     }
 };
 IkComponent = __decorate([
@@ -62962,11 +62968,10 @@ const OPDRACHTEN = [
         name: "Apple iDrive",
         quote: "Ride into the future",
         summary: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Deze opdracht betreft het ontwerpen van een advertentie voor de Apple iDrive. Dit is een zelfrijdende auto die op 1 juli 2017 wordt gelanceerd. In de advertentie moet het product worden aangekondigd waarbij een sterk gevoel bij de consument moet worden opgeroepen; ik moet deze auto hebben!"
         ],
         excerpt: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Voor de advertentie van de Apple iDrive heb ik allereerst rondgekeken op de website van Apple zelf. Hier viel mij meteen op dat de kleuren zwart en wit over het algemeen het meest gebruikt worden. Ik wilde in deze stijl blijven. Op basis van deze kleuren heb ik een afbeelding van een auto gezocht. Voor de positie van de auto in de advertentie het ik de theorie van “gulden snede” toegepast om de juiste verdeling te krijgen. Ook heb ik gekeken naar de meest recente advertentie van de iPhone. Op deze advertentie wordt de iPhone voor de helft afgebeeld zodat het interesse wekt. Dit heb ik ook toegepast in mijn advertentie. Voor wat betreft de typografie heb ik het logo van Apple en de bijbehorende tekst gecentreerd in het grootste vlak. Het Apple logo heb ik bewust bovenaan, groot en in het wit, afgebeeld. De consument heeft nu gelijk een associatie met een bekend merk. De combinatie van dit merk en de afgebeelde auto moet genoeg interesse wekken voor meer aandacht. Daarna volgen het productnaam en de quote. De productnaam is dikker afgedrukt dan de quote om hier meer aandacht naar te trekken. Vervolgens is de datum nog afgebeeld zodat het informatief stukje rond is. Als je het logo, de beperkte tekst en de afbeelding van de auto in combinatie ziet begrijp je dat Apple een auto op de markt gaat brengen, dit een futuristische auto is en dat deze per 1 juli 2017 voor de consument beschikbaar is.",
         ],
         images: [
             "assets/opdrachten/opdracht-1/images/opdracht-1-mockup.png"
@@ -62984,12 +62989,11 @@ const OPDRACHTEN = [
         name: "Lunchroom Bakker",
         quote: "Kleine trek, grote trek & enorme trek",
         summary: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+            "De opdrachtgever, familie Bakker, bezorgt al sinds 1910 lunches via hun bedrijf Lunchroom Bakker. Om mee te gaan met de moderne tijd willen zij deze ook via een Android applicatie verkopen. De opdracht betreft het maken van een schermontwerp voor het welkomstscherm van deze applicatie.",
+            "Dit welkomstscherm moet aan een aantal opgegeven eisen voldoen. Zo moet het scherm een menu knop hebben en een zoekmogelijkheid. Ook moeten de verschillende lunches van Lunchroom Bakker vermeld worden, inclusief de bijbehorende prijzen en bestel knop.",
         ],
         excerpt: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Voor het maken van de landingspagina van de mobile Android applicatie voor Lunchroom Bakker heb ik mij strikt gehouden aan de designregels. Het betreft hier de indeling van de componenten, de gebruikte kleuren en de samenhang hierin, de lay-out van elke component en de typografie. De eigen inbreng in dit ontwerp is dus beperkt. De indeling van submenu’s bijvoorbeeld kan niet worden veranderd. Dit geldt ook voor de teksten in de componenten. Lettertype, kleur, en lettergrootte staat vast en kan dus niet worden aangepast. Wat wel beïnvloedbaar is, is de kleur van componenten. Voor wat betreft de kleuren heb ik gebruik gemaakt van de theorie van tegenover elkaar liggende secundaire kleuren. De primaire kleuren rood en geel worden geassocieerd met eten. Als je deze twee kleuren met elkaar in gelijke verhouding mengt krijg je de secundaire kleur oranje. De tegenoverliggende secundaire kleur van oranje is blauw en deze heb ik dan ook toegepast. Voor de componenten waar de producten mee worden aangeboden heb ik gekozen voor een component waar de afbeelding centraal staat. Met de keuze van de foto’s heb ik uiteraard gezorgd dat het afbeeldingen zijn die de associatie wekken met termen als “vers”, “gezond” en “lekker”."
         ],
         images: [
             "assets/opdrachten/opdracht-2/images/opdracht-2-mockup.png"
@@ -63007,11 +63011,10 @@ const OPDRACHTEN = [
         name: "Augmented Albert",
         quote: "Een experiment met augmented reality",
         summary: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Deze opdracht gaat over Albert Heijn. Als aanvulling op hun zelfscanner wil deze supermarkt gaan experimenteren augmented reality. Hiervoor willen zij een applicatie ontwikkeld hebben voor tablets. Aan mij was het de taak om een ontwerp te maken waarbij een extra laag over het camerabeeld wordt gelegd die de gebruiker de weg wijst door de winkel en extra informatie geeft over de producten."
         ],
         excerpt: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Voor het ontwerpen van de applicatie heb ik rekening gehouden met de kleuren en de huisstijl van Albert Heijn. Om het de consument nog gemakkelijker te maken berekent de applicatie meest efficiënte route door de winkel voor de betreffende boodschappenlijst. Met een nummer op vloer ziet de consument waar hij of zij het eerste product kan vinden. De kleur van deze bewegwijzering past bij de huisstijl maar is niet overheersend omdat de aandacht van de consument gericht moet zijn op de producten. Eenmaal aangekomen verschijnt er een extra laag op het scherm. Via deze is extra productinformatie te zien. De design van het productinformatie venster sluit aan op het design van de website en is dus herkenbaar voor de gebruiker. Het ontwerp van de applicatie maakt weinig gebruik van tekst en is vooral visueel ingesteld. Aan de linkerkant van de applicatie is een menu te vinden. Via dit menu kan de gebruiker naar zijn winkelwagen om zo de inhoud van de winkelwagen en de nog te pakken producten te bekijken. De kleuren van het menu zijn ook in de Albert Heijn huisstijl en bewust niet op de voorgrond zodat de interesse nog steeds uitgaat naar de producten in de winkel. Om het gebruik zo vriendelijk mogelijk te maken is in het menu gekozen voor iconen in plaats van tekst."
         ],
         images: [
             "assets/opdrachten/opdracht-3/images/opdracht-3-mockup.png"
@@ -63029,11 +63032,14 @@ const OPDRACHTEN = [
         name: "Pecha Kucha",
         quote: "Joseph Muller-Brockmann",
         summary: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Tijdens het vak IMTD1 heb ik een presentatie gehouden in de vorm van een pecha kucha over de onderwerper Joseph Muller-Bruckman. Dit is een toonaangevende grafisch ontwerper uit de vorige eeuw. Hij was zeer invloedrijk en zijn stijl is zeer herkenbaar en wordt ook in deze tijd nog veel toegepast."
         ],
         excerpt: [
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+            "Joseph Muller-Bruckmann is geboren op 9 mei 1914 in Zwitserland. Hij studeerde kunstgeschiedenis, architectuur en design in Zürich. In 1936, hij was toen pas 22 jaar oud, opende hij zijn eigen ontwerpbureau die gespecialiseerd was in grafisch design en fotografie. Hij maakte vooral posters voor concerten die gehouden werden in Tonhalle.",
+            "In 1958 werd hij een van de oprichters van New Graphic Design. Dit was een tijdschrift waarmee reviews gegeven werden op ontwerpen. Dit tijdschrift groeide uit tot een autoriteit in de grafische wereld en was het belangrijkste vaktijdschrift voor design in die tijd. Hij is hier beroemd door geworden en werd in 1966 designer bij IBM.",
+            "Wat direct opvalt aan de posters die hij maakte is de strakke uitstraling, eenvoudig kleurgebruik en een schreefloos lettertype. De kleuren die gebruikt worden zijn zwart en wit en een kleur voor de achtergrond. Ook gebruikte hij geen afbeeldingen in zijn posters.",
+            "Op 30 augustus 1996 is hij overleden. Zijn invloed op de grafische industrie is groot. Hij wordt nu gezien als een van de grondleggers van de Zwitserse stijl. Zijn stijl wordt ook in deze tijd nog veel gebruikt zoals je op deze slide kunt zien. Kenners roemen hem om zijn eenvoudige designs en zijn strakke manier van typografie, vormen en kleuren.",
+            "Persoonlijk vind ik de stijl van Joseph Muller-Brockmann pakkend en aansprekend en zal deze zeker in mijn achterhoofd houden tijdens het maken van de opdrachten. Wat ik vooral knap vind is dat zijn design tijdloos is. Tot op de dag van vandaag komen we posters tegen waarin zijn stijl herkenbaar is. Dat vind ik een kenmerk van een goed design; dat het zelf na 50 jaar nog gebruikt wordt."
         ],
         images: [
             "assets/opdrachten/opdracht-4/images/opdracht-4-slide-1.png",
@@ -66192,7 +66198,7 @@ module.exports = "#me {\n  padding-top: 75px;\n  padding-bottom: 125px; }\n  #me
 /* 751 */
 /***/ function(module, exports) {
 
-module.exports = "#opdracht-photo {\n  padding-top: 75px;\n  padding-bottom: 75px;\n  background: no-repeat center center #333333;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  #opdracht-photo img, #opdracht-photo .img-responsive.img-rounded, #opdracht-photo .carousel {\n    -webkit-filter: drop-shadow(0 0 25px #000);\n    filter: drop-shadow(0 0 25px #000); }\n  #opdracht-photo .img-rounded, #opdracht-photo .img-responsive {\n    width: 100%; }\n  #opdracht-photo #opdracht_4_slider_detail .right, #opdracht-photo #opdracht_4_slider_detail .left {\n    background-image: none; }\n\n#description {\n  margin-top: 75px;\n  margin-bottom: 75px; }\n  #description h2 {\n    font-weight: 700;\n    color: #FEB41C;\n    margin-bottom: 25px; }\n  #description p {\n    color: #5E7C88;\n    line-height: 225%; }\n  #description .btn {\n    margin-top: 50px;\n    background-color: transparent;\n    border-color: #FEB41C;\n    color: #5E7C88; }\n  #description .dropdown-menu {\n    background-color: transparent;\n    border-color: #FEB41C; }\n    #description .dropdown-menu a {\n      color: #5E7C88; }\n  #description .btn:not(:first-of-type), #description .btn-group {\n    margin-left: 10px; }\n"
+module.exports = "#opdracht-photo {\n  padding-top: 75px;\n  padding-bottom: 75px;\n  background: no-repeat center center #333333;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  #opdracht-photo img, #opdracht-photo .img-responsive.img-rounded, #opdracht-photo .carousel {\n    -webkit-filter: drop-shadow(0 0 25px #000);\n    filter: drop-shadow(0 0 25px #000); }\n  #opdracht-photo .img-rounded, #opdracht-photo .img-responsive {\n    width: 100%; }\n  #opdracht-photo #opdracht_4_slider_detail .right, #opdracht-photo #opdracht_4_slider_detail .left {\n    background-image: none; }\n\n#description {\n  margin-top: 75px;\n  margin-bottom: 75px; }\n  #description h2 {\n    font-weight: 700;\n    color: #FEB41C;\n    margin-bottom: 25px; }\n  #description p {\n    color: #5E7C88;\n    line-height: 225%; }\n    #description p:not(:last-of-type) {\n      margin-bottom: 25px; }\n  #description .btn {\n    margin-top: 50px;\n    background-color: transparent;\n    border-color: #FEB41C;\n    color: #5E7C88; }\n  #description .dropdown-menu {\n    background-color: transparent;\n    border-color: #FEB41C; }\n    #description .dropdown-menu a {\n      color: #5E7C88; }\n  #description .btn:not(:first-of-type), #description .btn-group {\n    margin-left: 10px; }\n"
 
 /***/ },
 /* 752 */
@@ -66240,7 +66246,7 @@ module.exports = "<app-header [text]=\"['Hallo,', 'ik ben Maarten.']\"></app-hea
 /* 759 */
 /***/ function(module, exports) {
 
-module.exports = "<section id=\"me\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8\">\n        <h3>Dit ben ik</h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula\n          eget dolor. Aenean massa; Cum sociis natoque penatibus et magnis dis parturient\n          montes, nascetur ridiculus mus; Donec quam felis, ultricies nec, pellentesque\n          eu, pretium quis, sem! Nulla consequat massa quis enim! Donec pede justo,\n          fringilla vel, aliquet nec, vulputate eget, arcu? In enim justo, rhoncus ut,\n          imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.\n          Integer tincidunt. Cras dapibus; Vivamus elementum semper nisi? Aenean vulputate\n          eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,\n          enim; Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus? Phasellus\n          viverra nulla ut metus varius laoreet. Quisque rutrum? Aenean imperdiet. Etiam\n          ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.\n        </p>\n      </div>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<section id=\"me\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8\">\n        <h3>Dit ben ik</h3>\n        <p>\n          {{ ik }}\n        </p>\n      </div>\n    </div>\n  </div>\n</section>\n"
 
 /***/ },
 /* 760 */
@@ -69223,4 +69229,4 @@ module.exports = __webpack_require__(429);
 
 /***/ }
 ],[826]);
-//# sourceMappingURL=main.24099eedd971f32cc195.bundle.map
+//# sourceMappingURL=main.01911b787954982b58da.bundle.map
