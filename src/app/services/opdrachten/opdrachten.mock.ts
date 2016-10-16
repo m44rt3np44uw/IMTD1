@@ -6,7 +6,7 @@ export const OPDRACHTEN: Opdracht[] = [
     name: "Apple iDrive",
     quote: "Ride into the future",
     summary: [
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      "Deze opdracht betreft het ontwerpen van een advertentie voor de Apple iDrive. Dit is een zelfrijdende auto die op 1 juli 2017 wordt gelanceerd. In de advertentie moet het product worden aangekondigd waarbij een sterk gevoel bij de consument moet worden opgeroepen; ik moet deze auto hebben!"
     ],
     excerpt: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
