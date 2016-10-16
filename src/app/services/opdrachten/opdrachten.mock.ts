@@ -73,7 +73,7 @@ export const OPDRACHTEN: Opdracht[] = [
     name: "Pecha Kucha",
     quote: "Joseph Muller-Brockmann",
     summary: [
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      "Tijdens het vak IMTD1 heb ik een presentatie gehouden in de vorm van een pecha kucha over de onderwerper Joseph Muller-Bruckman. Dit is een toonaangevende grafisch ontwerper uit de vorige eeuw. Hij was zeer invloedrijk en zijn stijl is zeer herkenbaar en wordt ook in deze tijd nog veel toegepast."
     ],
     excerpt: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
