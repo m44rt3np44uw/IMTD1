@@ -51,7 +51,7 @@ export const OPDRACHTEN: Opdracht[] = [
     name: "Augmented Albert",
     quote: "Een experiment met augmented reality",
     summary: [
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+      "Deze opdracht gaat over Albert Heijn. Als aanvulling op hun zelfscanner wil deze supermarkt gaan experimenteren augmented reality. Hiervoor willen zij een applicatie ontwikkeld hebben voor tablets. Aan mij was het de taak om een ontwerp te maken waarbij een extra laag over het camerabeeld wordt gelegd die de gebruiker de weg wijst door de winkel en extra informatie geeft over de producten."
     ],
     excerpt: [
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit! Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus? Donec quam felis, ultricies nec, pellentesqueeu, pretium quis, sem; Nulla consequat massa quis enim! Donec pede justo,fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
