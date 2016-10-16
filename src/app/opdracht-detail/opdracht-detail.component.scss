@@ -41,6 +41,10 @@
   p {
     color: $kleur_4;
     line-height: 225%;
+
+    &:not(:last-of-type) {
+      margin-bottom: 25px;
+    }
   }
 
   .btn {
