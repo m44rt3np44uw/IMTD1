@@ -16,7 +16,7 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "assets/opdrachten/opdracht-1/essay/opdracht-1-essay.pdf",
     peer_review: {
-      inkomend: 'assets/opdrachten/opdracht-2/2-peer-review/inkomend/opdracht-2-2-peer-review-inkomend.pdf',
+      inkomend: 'assets/opdrachten/opdracht-1/2-peer-review/inkomend/opdracht-1-2-peer-review-inkomend.pdf',
       uitgaand: 'assets/opdrachten/opdracht-1/2-peer-review/uitgaand/opdracht-1-2-peer-review-uitgaand.pdf'
     },
     opdracht: "assets/opdrachten/opdracht-1/opdracht/opdracht-1.png",
@@ -38,7 +38,7 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "assets/opdrachten/opdracht-2/essay/opdracht-2-essay.pdf",
     peer_review: {
-      inkomend: 'assets/opdrachten/opdracht-3/2-peer-review/inkomend/opdracht-3-2-peer-review-inkomend.pdf',
+      inkomend: 'assets/opdrachten/opdracht-2/2-peer-review/inkomend/opdracht-2-2-peer-review-inkomend.pdf',
       uitgaand: 'assets/opdrachten/opdracht-2/2-peer-review/uitgaand/opdracht-2-2-peer-review-uitgaand.pdf'
     },
     opdracht: "assets/opdrachten/opdracht-2/opdracht/opdracht-2.png",
@@ -59,8 +59,8 @@ export const OPDRACHTEN: Opdracht[] = [
     ],
     essay: "assets/opdrachten/opdracht-3/essay/opdracht-3-essay.pdf",
     peer_review: {
-      inkomend: 'assets/opdrachten/opdracht-4/2-peer-review/inkomend/opdracht-4-2-peer-review-inkomend.pdf',
-      uitgaand: 'assets/opdrachten/opdracht-3/2-peer-review/uitgaand/2-peer-review-uitgaand.pdf'
+      inkomend: 'assets/opdrachten/opdracht-3/2-peer-review/inkomend/opdracht-3-2-peer-review-inkomend.pdf',
+      uitgaand: 'assets/opdrachten/opdracht-3/2-peer-review/uitgaand/opdracht-3-2-peer-review-uitgaand.pdf'
     },
     opdracht: "assets/opdrachten/opdracht-3/opdracht/opdracht-3.png",
     is_even: false
