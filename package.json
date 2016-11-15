@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^3.3.32",
-    "@types/jasmine": "^2.5.37",
+    "@types/jasmine": "^2.5.38",
     "@types/jquery": "^2.0.33",
     "angular-cli": "1.0.0-beta.19-3",
     "codelyzer": "~1.0.0-beta.0",
