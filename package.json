@@ -36,7 +36,7 @@
     "@types/bootstrap": "^3.3.32",
     "@types/jasmine": "^2.5.38",
     "@types/jquery": "^2.0.34",
-    "angular-cli": "1.0.0-beta.20-1",
+    "angular-cli": "1.0.0-beta.20-4",
     "codelyzer": "~1.0.0-beta.0",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.7.0",
